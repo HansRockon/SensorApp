@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/senspic"
+    tools:context=".Intro">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Motion Sensors"
+                android:singleLine="true"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_margin="16dp"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/text_motion_sensors"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_margin="16dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Using the Accelerometer"
+                android:layout_marginTop="50dp"
+                android:layout_margin="16dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/text_Accelerometer"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_margin="16dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Using the Gravity Sensor"
+                android:layout_marginTop="50dp"
+                android:layout_margin="16dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/text_Gravity"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_margin="16dp"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Using the Gyroscope"
+                android:layout_marginTop="50dp"
+                android:layout_margin="16dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/text_Gyroscope"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_margin="16dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Using the Rotation Vector Sensor"
+                android:layout_marginTop="50dp"
+                android:layout_margin="16dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/text_Gyroscope"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_margin="16dp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Intro">
+
+
+    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:context=".Intro" >
+
+        <android.support.v4.view.PagerTabStrip
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="#2196F3"
+
+
+            android:id="@+id/tab_strip"
+            android:focusableInTouchMode="false">
+
+
+
+        </android.support.v4.view.PagerTabStrip>
+
+    </android.support.v4.view.ViewPager>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:elevation="10dp"
+        android:src="@drawable/ic_home"  />
+
+
+</android.support.design.widget.CoordinatorLayout>

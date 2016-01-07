@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MenuNavigation">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="100dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ScrollView
+                android:id="@+id/scroll"
+                android:layout_width="match_parent"
+                android:layout_height="500dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="16dp"
+                    android:paddingLeft="16dp"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <Button
+                        android:layout_width="300dp"
+                        android:layout_height="150dp"
+                        android:text="List Of Sensors"
+                        android:textSize="25dp"
+                        android:id="@+id/button"
+                        android:layout_gravity="center"
+                        android:textColor="#FAFAFA"
+                        android:textStyle="bold"
+                        android:background="@drawable/menu_button_selector"
+                        android:clickable="true"
+                        android:onClick="getSensorsActivity" />
+
+                    <Button
+                        android:layout_width="300dp"
+                        android:layout_height="150dp"
+                        android:text="Accelerometer Test"
+                        android:textSize="16dp"
+                        android:id="@+id/button2"
+                        android:textColor="#FAFAFA"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:soundEffectsEnabled="true"
+                        android:background="@drawable/menu_button_selector"
+                        android:onClick="getMotionActivity"/>
+
+                    <Button
+                        android:layout_width="300dp"
+                        android:layout_height="150dp"
+                        android:text="@string/title_activity_compass"
+                        android:textSize="25dp"
+                        android:id="@+id/button3"
+                        android:layout_gravity="center"
+                        android:textColor="@color/colorButton3"
+                        android:textStyle="bold"
+                        android:background="@drawable/menu_button_selector"
+                        android:onClick="getCompassActivity"/>
+
+                    <Button
+                        android:layout_width="300dp"
+                        android:layout_height="150dp"
+                        android:text="Outside Distance"
+                        android:textSize="25dp"
+                        android:layout_margin="16dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/button4"
+                        android:textColor="@color/colorButton4"
+                        android:textStyle="bold"
+                        android:background="@drawable/menu_button_selector"
+                        android:onClick="getDistanceActivity"/>
+
+                    <Button
+                        android:layout_width="300dp"
+                        android:layout_height="150dp"
+                        android:text="New Button"
+                        android:layout_gravity="center"
+                        android:textSize="25dp"
+                        android:textColor="@color/colorButton5"
+                        android:textStyle="bold"
+                        android:id="@+id/button5"
+                        android:background="@drawable/menu_button_selector"
+                        />
+
+                    <Button
+                        android:layout_width="300dp"
+                        android:layout_height="150dp"
+                        android:text="New Button"
+                        android:textSize="25dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/colorButton6"
+                        android:textStyle="bold"
+                        android:background="@drawable/menu_button_selector"
+                        android:id="@+id/button6"
+                        />
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>
